@@ -1,0 +1,62 @@
+@media screen and (max-width:1200px) {
+    .fixed-button {
+        right: 30px;
+        bottom: 30px;
+    }
+    .container {
+        width: 992px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .fixed-button {
+        right: 25px;
+        bottom: 25px;
+    }
+    .container {
+        width: 768px;
+    }
+    .event-box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .detail-main span {
+        display: none;
+    }
+    .boxes {
+        gap: 30px;
+    }
+    .date {
+        display: none;
+    }
+    .price-day {
+        align-items: center;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .date-second {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .fixed-button {
+        right: 15px;
+        bottom: 15px;
+    }
+    .container { 
+        width: 576px;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    .fixed-button {
+        right: 10px;
+        bottom: 10px;
+    }
+    .container {
+        width: 300px;
+    }
+}
