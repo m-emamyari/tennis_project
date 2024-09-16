@@ -1,0 +1,331 @@
+/* Reset Style */
+
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: dana;
+}
+
+
+/* Ready Class */
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+/*  Import Font Section */ 
+
+@font-face {
+	font-family: Dana;
+	font-style:  normal;
+	font-weight: 10;
+	src: url('../../assests/font/woff/woff/Dana-Black.woff') format('woff'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff2/Dana-Black.woff2') format('woff2');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../../assests/font/woff/woff2/Dana-Thin.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../../assests/font/woff/woff2/Dana-UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-UltraLight.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../../assests/font/woff/woff2/Dana-Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../../assests/font/woff/woff2/Dana-Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../../assests/font/woff/woff2/Dana-DemiBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-DemiBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../../assests/font/woff/woff2/Dana-ExtraBold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-ExtraBold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 900;
+	src: url('../../assests/font/woff/woff2/Dana-ExtraBlack.woff2.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-ExtraBlack.woff.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 930;
+	src: url('../../assests/font/woff/woff2/Dana-ExtraBlack.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-ExtraBlack.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 960;
+	src: url('../../assests/font/woff/woff2/Dana-Heavy.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-Heavy.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: 990;
+	src: url('../../assests/font/woff/woff2/Dana-fat.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-fat.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../assests/font/woff/woff2/Dana-Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: dana;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../../assests/font/woff/woff2/Dana-Regular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assests/font/woff/woff/Dana-Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+/* End Import Font Section */
+
+/* header class */
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.shop-main {
+    display: grid;
+    grid-template-columns: 66.66666% 33.33333%;
+    gap: 30px;
+}
+
+.categories-part li {
+    list-style-position: inside;
+}
+
+.shop-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.shop-title i {
+    position: absolute;
+    margin-top: 35px;
+}
+
+
+.sidebar {
+    background-color: #F3F8F9;
+    padding: 30px;
+}
+
+.top-product-list {
+    display: flex;
+    justify-content:space-between ;
+}
+
+.top-product-list select {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.bottom-product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.product-box img {
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.rating-box-socks span:nth-of-type(1),
+.rating-box-socks span:nth-of-type(2),
+.rating-box-socks span:nth-of-type(3) {
+    color: #FFC107;
+}
+
+
+.rating-box-socks span:nth-of-type(4),
+.rating-box-socks span:nth-of-type(5) {
+    color: #e0e0e0;
+}
+
+.product-box a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.product-box h4 {
+    font-size: 1.2rem;
+}
+
+.aside-part {
+    line-height: 2rem;
+    margin-top: 30px;
+}
+
+.rating-box {
+    font-size: 0.9rem;
+}
+
+
+.rating-box span:nth-of-type(1),
+.rating-box span:nth-of-type(2),
+.rating-box span:nth-of-type(3),
+.rating-box span:nth-of-type(4) {
+    color: #FFC107;
+}
+
+.rating-box span:nth-of-type(5) {
+    color: #e0e0e0;
+}
+
+.sidebar-input {
+    position: relative;
+    width: 150px;
+}
+
+.sidebar-input i {
+    position: absolute;
+    margin-top: -22px;
+    color: #CBD0D1;
+}
+
+.price-range-container {
+    width: 80%;
+    max-width: 400px;
+}
+
+.price-range-bar {
+    width: 134%;
+    height: 10px;
+    background-color: #e0e0e0;
+    /* Light gray background for the bar */
+    border-radius: 5px;
+    position: relative;
+}
+
+.price-range-filled {
+    width: 40%;
+    /* Adjust this width to represent the filled portion */
+    height: 100%;
+    background-color: #e57373;
+    /* Color for the filled portion */
+    border-radius: 5px;
+}
+
+.aside-part h4 {
+    font-size: 1.2rem;
+}
+
+.button-chart {
+    margin-top: 10px;
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 1.05rem;
+    font-weight: 500;
+    background-color: #1B8E55;
+    border: 1px #1B8E55;
+}
+
+.aside-part a {
+    text-decoration: none;
+    color: #656565;
+    outline: 1px solid #CBD0D1;
+    margin-right: 8px;
+    padding: 3px 8px;
+}
+
+.product-box img {
+    position: relative;
+}
+
+.offer {
+    position: absolute;
+    color: #fff;
+    font-size: 1.1rem;
+    background-color: #1B8E55;
+    padding: 5px 20px;
+    margin-right: 25px;
+    z-index: 1;
+    border-radius: 2px;
+}
+
+.input-box {
+    width: 151px;
+    height: 25px;
+    border: 2px #CBD0D1;
+}
+
+.pages {
+    margin-right: 6.8%;
+}
+
+.pages button {
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: 1px #ffffff;
+}
+
+.pages button:nth-of-type(4) {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.categories-part li{
+    color: #656565;
+}
+
+.categories-part li:hover{
+    color: #1B8E55;
+}
