@@ -1,0 +1,133 @@
+/* !Bootstrap Screen Size */
+/*? Breakpoint: 1200px */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 992px;
+  }
+  .bottom-product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sidebar {
+    width: 91%;
+  }
+  .product-box img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  .offer {
+    bottom: 350px;
+    right: 430px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 768px;
+  }
+  .product-box img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  .bottom-product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sidebar{
+    width: 88%;
+  }
+  .offer{
+    bottom: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+      width: 100%;
+  }
+
+  .shop-content{
+    width: 98%;
+  }
+  .bottom-product-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px 25px;
+  }
+  .product-list {
+    width: 90%;
+    margin: 10px;
+  }
+  .sidebar {
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+  }
+  .shop-main {
+    grid-template-columns: 1fr;
+    width: 98%;
+  }
+  .product-box img {
+    width: 101%;
+    height: 76%;
+    border-radius: 4px;
+  }
+  .offer {
+    bottom: 320px;
+    right: 335px;
+  }
+  .product-box {
+    margin-top: 15px;
+  }
+
+  .product-box h4,
+  .product-box p {
+    width: 100%;
+  }
+
+  .pages{
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .offer {
+    bottom: 340px;
+    right: 255px;
+    padding: 0px 10px;
+  }
+
+  
+  .top-product-list p , 
+  .top-product-list select {
+    font-size: 0.7rem;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .shop-content {
+    flex-wrap: wrap;
+  }
+  .bottom-product-list {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .product-box img {
+    width: 95%;
+    height: 95%;
+  }
+
+  .offer {
+    bottom: -140px;
+    right: 20px;
+  }
+
+  .top-product-list p , 
+  .top-product-list select {
+    font-size: 0.7rem;
+  }
+
+  .price-range-bar{
+    width: 100%;
+  }
+}
